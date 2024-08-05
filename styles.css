@@ -1,0 +1,345 @@
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, #4a90e2, #9013fe);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeIn 1.5s ease-out;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0;
+    animation: fadeIn 1.5s ease-out 0.5s;
+}
+
+nav {
+    background-color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #9013fe !important;
+    font-weight: 700;
+}
+
+.content {
+    padding: 60px 20px;
+}
+
+section {
+    padding: 60px 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 1s ease-out;
+}
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #9013fe;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.skills-list,
+.experience-list,
+.education-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.skills-list li,
+.experience-list li,
+.education-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1s ease-out;
+}
+
+.skill-icon {
+    color: #9013fe;
+    margin-right: 8px;
+}
+
+.experience-title,
+.education-title {
+    font-weight: 600;
+}
+
+.experience-item,
+.education-item {
+    margin-bottom: 30px;
+}
+
+.section-bg {
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Styles */
+
+
+/* Navigation Bar *//* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(135deg, #808080, #868587);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeIn 1.5s ease-out;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0;
+    animation: fadeIn 1.5s ease-out 0.5s;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed; /* Make the nav fixed */
+    top: 0; /* Stick to the top */
+    left: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #808080 !important;
+    font-weight: 700;
+}
+
+/* Adjust content padding to account for the fixed nav */
+.content {
+    padding: 60px 20px; /* Adjust padding if needed */
+    padding-top: 80px; /* Space for fixed nav */
+}
+
+section {
+    padding: 60px 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 1s ease-out;
+}
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #808080;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.skills-list,
+.experience-list,
+.education-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.skills-list li,
+.experience-list li,
+.education-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1s ease-out;
+}
+
+.skill-icon {
+    color: #808080;
+    margin-right: 8px;
+}
+
+.experience-title,
+.education-title {
+    font-weight: 600;
+}
+
+.experience-item {
+    margin-bottom: 30px;
+}
+
+.experience-item-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.experience-item-header .experience-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.experience-item-header .experience-date {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.experience-item-content p {
+    margin: 10px 0;
+}
+
+.experience-item-content ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.section-bg {
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .navbar-collapse {
+        background-color: #333;
+        position: relative;
+        height: auto;
+        overflow-y: auto;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navbar-collapse.show {
+        transform: translateX(0);
+    }
+
+    .nav-link {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+}
